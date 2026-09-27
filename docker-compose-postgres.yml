@@ -27,7 +27,7 @@ services:
     ports:
       - "9090:9090"
   webgoat_db:
-    image: postgres:10.12@sha256:9987e973f69cb550f6bcbb6d24d3277749a620344ecea6749ff23078f220e84d
+    image: postgres:10.21@sha256:b2baf8998630663d21370da06387c950e587071bdd307ee34e661cdcc7442bcc
 # Uncomment to store the state of the database on the host.
 #    volumes:
 #      - ./database:/var/lib/postgresql
