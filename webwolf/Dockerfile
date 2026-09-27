@@ -1,4 +1,4 @@
-FROM openjdk:11.0.1-jre-slim-stretch@sha256:965a07951bee0c3b1f8aff4818619ace3e675d91cfb746895e8fb84e3e6b13ca
+FROM openjdk:11.0.3-jre-slim-stretch@sha256:49b7efb61374586c9c007adc306dcaf248ba4250286a9a40d7f0b9a546f0bb25
 
 ARG webwolf_version=v8.0.0-SNAPSHOT
 
